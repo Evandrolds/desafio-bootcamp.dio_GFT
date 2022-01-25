@@ -11,18 +11,18 @@ import lombok.ToString;
  *
  * @author Evandro
  */
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-@ToString(callSuper = true,includeFieldNames = true)
-public class Mentorship extends Content{
+@ToString(callSuper = true, includeFieldNames = true)
+public class Mentorship extends Content {
+
     private LocalDate data;
 
     @Override
     public double calculateXP() {
         return XP_STANDARD + 20d;
     }
-   
+
 }

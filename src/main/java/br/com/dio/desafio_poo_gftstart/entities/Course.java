@@ -18,8 +18,6 @@ import lombok.ToString;
 
 public class Course extends Content {
 
-    private String title;
-    private String description;
     private Integer workLoad;
 
     @Override
